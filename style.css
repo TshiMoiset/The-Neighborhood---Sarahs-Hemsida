@@ -1,0 +1,70 @@
+@font-face {
+	font-family: "Graffiti";
+	src: url("MotionPersonalUseBold-2O0od.ttf") format("woff");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: black;
+	color: #c53d92;
+	font-family: "Montserrat", sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+.logo {
+	font-family: "Graffiti";
+	font-size: 2rem;
+	cursor: pointer;
+	transition: 500ms;
+}
+
+.logo:hover {
+	color: white;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.navigationLinks ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.navigationLinks a {
+	display: block;
+	text-decoration: none;
+	color: #c53d92;
+	margin: 1rem;
+	transition: 500ms;
+}
+
+.navigationLinks a:hover {
+	color: white;
+}
+
+.navbanavigationLinksrLinks a:hover {
+	color: #ccc;
+}
+
+.navigationLinks li {
+	padding-left: 1.5rem;
+}
+
+.navButton {
+	display: none;
+	font-size: 2rem;
+	cursor: pointer;
+}

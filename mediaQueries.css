@@ -1,0 +1,37 @@
+@media screen and (max-width: 769px) {
+	.navigation {
+		flex-direction: column;
+	}
+
+	.navigationLinks {
+		display: none;
+		background-color: black;
+		width: 100%;
+	}
+
+	.navigationLinks.active {
+		display: unset;
+		background-color: black;
+		width: 100%;
+		z-index: 1000000000000;
+	}
+
+	.navigationLinks ul {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.navButton {
+		display: flex;
+	}
+
+	.logo-navbutton {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 560px) {
+}
